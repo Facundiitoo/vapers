@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online</title>
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a nuestra Tienda Online</h1>
+        <a href="https://wa.me/3815793651" target="_blank" style="color:#25d366; font-weight:bold; text-decoration:none; font-size:1.1rem;">
+            Contactar por WhatsApp
+        </a>
+    </header>
+    <main>
+        <section class="productos">
+            <article class="producto">
+                <img src="img/Bubbaloo-Grape-30k.png" alt="Producto 1">
+                <h2>elf bar 30k pitadas. </h2>
+                <p>Precio: $25.000</p>
+                <p>Sabores: strawmelon peach, blueberry sour raspberry, sour lush gami
+                </p>
+            </article>
+            <article class="producto">
+                <img src="img/losgal.png" alt="Producto 2">
+                <h2>Losgal By Lostmary 25k pitadas</h2>
+                <p>Precio: $22.000</p>
+                <p>Sabores:blue razz ice, sour blackberry blueberry</p>
+            </article>
+             <article class="producto">
+                <img src="img/elfbar15k.png" alt="Producto 3">
+                <h2>elfbar 15k pitadas</h2>
+                <p>Precio: $22.000</p>
+                <p>Sabores:blue razz ice, strawberry ice, triple berry ice, peach mango watermelon</p>
+            </article>
+            <article class="producto">
+                <img src="img/elf40k.png" alt="Producto 3">
+                <h2>elfbar 40k pitadas</h2>
+                <p>Precio: $28.000</p>
+                <p>sin Stock</p>
+            </article>
+            <article class="producto">
+                <img src="img/lostangel.png" alt="Producto 3">
+                <h2>lost angel 20k pitadas</h2>
+                <p>Precio: $21.000</p>
+                <p>sin stock</p>
+            </article>
+            <article class="producto">
+                <img src="img/lostmary.png" alt="Producto 3">
+                <h2>lost mary 20k pitadas</h2>
+                <p>Precio: $22.000</p>
+                <p>sin Stock</p>
+            </article>
+            <!-- Agregar más productos según sea necesario -->
+        </section>
+        <center><h1> Consultar por sabores en WhatsApp</h1></center>
+    </main>
+    <footer>
+        <p>&copy; 2023 Tienda Online. Todos los derechos reservados.</p>
+    </footer>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            background: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #2d3e50;
+            color: #fff;
+            padding: 1.5rem 0;
+            text-align: center;
+        }
+        .productos {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 2rem;
+            padding: 2rem;
+        }
+        .producto {
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            width: 260px;
+            padding: 1.5rem 1rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .producto:hover {
+            transform: translateY(-5px) scale(1.03);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+        .producto img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        .producto h2 {
+            font-size: 1.2rem;
+            margin: 0.5rem 0;
+            color: #2d3e50;
+        }
+        .producto p {
+            margin: 0.3rem 0;
+            color: #444;
+        }
+        footer {
+            background: #2d3e50;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+        header a {
+            display: inline-block;
+            margin-top: 1rem;
+        }
+    </style>
+</body>
+</html>
